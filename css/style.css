@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+section{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.container{
+  width: 33%;
+  padding: 30px;
+  margin: auto;
+  border: 2px solid white;
+}
+.content{
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 3px;
+}
+.clock{
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.date-container{
+  padding:10px 20px;
+}
+.date,.time{
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.date div{
+  width: 33.3%;
+  padding-left: 10px;
+}
+.date div input,.time div input{
+  border: none;
+  background-color: transparent;
+  color: #c41e1e;
+  font-size: 40px;
+}
+.date-content,.time-content{
+  display: flex;
+}
+.date-content div,.time-content div{
+  text-align: center;
+  width: 33.3%;
+  color: white;
+}
+.time div{
+  width: 20%;
+  padding-left: 10px;
+}
+h1{
+  color: #c41e1e;
+  font-size: 40px;
+}
+.days{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+}
+.days input{
+  background-color: #c41e1e;
+  font-size: 30px;
+}
+.days div{
+  width: 14.28%;
+  position: relative;
+}
+.days label{
+  font-size: 12px;
+  position: absolute;
+  top: 5px;
+  color: white;
+  right: 8px;
+}
+.session label{
+  color: white;
+}
+.session div{
+  padding: 10px;
+}
+.session{
+  display: flex;
+  justify-content: center;
+}
+input[type="radio"]{
+  accent-color: #c41e1e;
+}
+
+
+
